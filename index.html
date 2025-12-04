@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakshmi R | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Lakshmi R.</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Lakshmi R</span></h1>
+            <h3>CSE Student | Aspiring FinTech Engineer</h3>
+            <p>Building robust solutions with Python & SQL.</p>
+            <a href="#contact" class="btn">Contact Me</a>
+            <a href="resume.pdf" download class="btn btn-outline">Download CV</a>
+        </div>
+    </section>
+
+    <section id="about" class="section-padding">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-container container">
+            <img src="profile.JPEG" alt="Lakshmi R" class="profile-img">
+            
+            <div class="about-text">
+                <p id="my-bio">
+                    I am a highly motivated third-year Computer Science and Engineering student at Malnad College of Engineering. 
+                    With a CGPA of 8.3, I have built a strong foundation in Object-Oriented Programming, DBMS, and Python.
+                    <br><br>
+                    Currently, I am seeking a Delivery, Testing, and Support (DTS) internship at Infosys Finacle. 
+                    I have a keen eye for quality assurance and am eager to apply my skills in FinTech and Core Banking Systems.
+                </p>
+                
+                <div class="education-mini">
+                    <h4>Education</h4>
+                    <p><strong>B.E. CSE</strong> - Malnad College of Engineering (2027)</p>
+                    <p><strong>Class XII</strong> - Brilliant PU College (95.4%)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section-padding bg-light">
+        <h2 class="section-title">My Skills</h2>
+        <div class="container skills-grid">
+            <div class="card">
+                <i class="fab fa-python icon"></i>
+                <h3>Programming</h3>
+                <p>Python (Intermediate), SQL, HTML, CSS</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-server icon"></i>
+                <h3>Core Concepts</h3>
+                <p>OOP, DBMS, OS, Software Testing Life Cycle</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-terminal icon"></i>
+                <h3>Tools</h3>
+                <p>Git, Linux Commands, MS Excel</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section-padding">
+        <h2 class="section-title">Projects</h2>
+        <div class="container projects-grid">
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Transaction Validator</h3>
+                    <span class="tag">QA</span> <span class="tag">OOP</span>
+                    <p>Automated tool to validate transaction data integrity for banking scenarios.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Account Manager</h3>
+                    <span class="tag">SQL</span> <span class="tag">DBMS</span>
+                    <p>A database management system handling customer accounts and banking records.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>CLI Calculator</h3>
+                    <span class="tag">Python</span> <span class="tag">Logic</span>
+                    <p>Command-line application demonstrating functional programming logic.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="contact" class="section-padding bg-dark">
+        <h2 class="section-title text-white">Get In Touch</h2>
+        <div class="container contact-container">
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            
+            <div class="socials">
+                <p style="margin-bottom: 15px;">Email: <a href="mailto:llakshmir895@gmail.com" style="color: #3498db; text-decoration: none;">llakshmir895@gmail.com</a></p>
+                
+                <a href="https://github.com/LAKSHMI-144" target="_blank" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                
+                <a href="https://www.linkedin.com/in/lakshmi-r-2b8932299" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Lakshmi R. Built for Web Programming Lab.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
